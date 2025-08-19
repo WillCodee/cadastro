@@ -20,7 +20,7 @@ class ValidaFormulario{
             const dados = {};
             for(let campo of this.formulario.querySelectorAll('.validar')){
                 const nome = campo.getAttribute('name');
-    const valor = campo.value;
+                const valor = campo.value;
 
                 // Se o campo não tiver "name", pula
                 if (!nome) {
